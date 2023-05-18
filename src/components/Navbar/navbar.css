@@ -1,19 +1,15 @@
 nav {
-  height: 50px;
+  height: 70px;
   display: flex;
-  justify-content: space-around;
-  background: black;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b0c4de;
   align-items: center;
 }
-ul {
-  display: flex;
-  justify-content: center;
- align-items: center;
-}
-ul li a {
-  padding: 0 40px;
-  color: white;
-  font-weight: 500px;
-  cursor: pointer;
-  
+
+.logo img {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
 }

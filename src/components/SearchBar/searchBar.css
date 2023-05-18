@@ -1,0 +1,38 @@
+.searchbar {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  font-size: 60px;
+  color: white;
+}
+
+.searchbar-contain {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.searchbar-contain  {
+  font-size: 20px;
+  color: #777;
+}
+
+.searchbar-contain input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
