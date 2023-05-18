@@ -1,0 +1,19 @@
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+}
+ul li a {
+  padding: 0 40px;
+  color: white;
+  font-weight: 500px;
+  cursor: pointer;
+  
+}
